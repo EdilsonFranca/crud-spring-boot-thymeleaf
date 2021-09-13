@@ -1,0 +1,29 @@
+.div-ball{
+	right: -30px;
+	top:-50px;
+	z-index: 100;
+	width: 40px;
+	transition:.5s;
+}
+
+.ball-ico{
+	  top: 90px;
+	  left: -17px;
+	  fill: #FFF;
+	  background-color: orange;
+	  z-index:200;
+	  transition:.5s;
+}
+
+.nav > .nav-item:nth-child(1):hover ~ .div-ball{
+	top:-95px;
+}
+
+.nav > .nav-item:nth-child(2):hover  ~ .div-ball{
+	top:-60px;
+}
+
+.dropdown-toggle::after{
+	margin-left:-25px;
+	margin-bottom:-20px;
+}
